@@ -1,0 +1,36 @@
+
+
+:root{
+  --mainDark: #343a40;
+  --mainGray: rgba(109,109,109);
+  --mainLightGrey: rgba(172,172,172);
+  --mainWhite: #fff;
+  --mainBlue: #007bff;
+  --mainYellow: #ffa400;
+}
+
+
+.navbar-toggle:focus{
+  outline: none;
+
+}
+
+.navbar-toggler {
+  border: none;
+  color: #fff;
+}
+
+.custom-toggler {
+  border: 1px solid white; /* Lisää valkoiset reunukset */
+  color: white; /* Aseta tekstiväri valkoiseksi */
+}
+
+.custom-toggler:hover {
+  background-color: white; /* Vaihda taustaväri valkoiseksi hover-tilassa */
+  color: black; /* Vaihda tekstiväri mustaksi hover-tilassa */
+}
+
+
+
+
+
